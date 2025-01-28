@@ -1,6 +1,5 @@
 package SinglyLinkedLists.StudentRecordManagement;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class StudentRecordManagement {
@@ -157,7 +156,6 @@ public class StudentRecordManagement {
         while(currentStudentNode != null){
             if(currentStudentNode.getRollNumber().equals(rollNumber)){
                 currentStudentNode.setGrade(newGrade);
-                currentStudentNode.setGrade(newGrade);
                 System.out.print("\nStudent grade updated in record for student with roll number " + rollNumber + " successfully!" + " New grade : " + currentStudentNode.getGrade());
                 nodeFound = true;
             }
@@ -269,3 +267,4 @@ public class StudentRecordManagement {
         }
     }
 }
+

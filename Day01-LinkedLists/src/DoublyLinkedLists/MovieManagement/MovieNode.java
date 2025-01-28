@@ -31,7 +31,7 @@ public class MovieNode {
     public String getRating(){
         return rating;
     }
-
+    
     public void setRating(String newRating){
         rating = newRating;
     }
