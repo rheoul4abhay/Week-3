@@ -1,0 +1,6 @@
+Hello, 世界! This file is encoded in UTF-8.
+Hello, 世界! This file is encoded in UTF-8.
+Hello, 世界! This file is encoded in UTF-8.
+Hello, 世界! This file is encoded in UTF-8.
+
+This is the end of file!
