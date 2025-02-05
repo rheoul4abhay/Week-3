@@ -24,6 +24,6 @@ public class PeakElement {
     public static void main(String[] args) {
         int[] arr = {1,2,1,3,5,6,4};
         int result = PeakElement.findPeakElement(arr);
-        System.out.println("\nPeak element in array : " + result);
+        System.out.println(result == Integer.MAX_VALUE ? "\nPeak element not present!" : "\nPeak element in array : " + result);
     }
 }
