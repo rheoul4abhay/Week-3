@@ -12,7 +12,7 @@ public class PeakElement {
                 return arr[mid];
             }
             else if(arr[mid] < arr[mid-1]){
-                high = mid-1;
+                high = mid;
             }
             else if(arr[mid] < arr[mid+1]){
                 low = mid+1;
